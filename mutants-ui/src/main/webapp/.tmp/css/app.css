@@ -1,0 +1,28 @@
+.text-center {
+  text-align: center; }
+
+md-card md-toolbar {
+  border-radius: 3px 3px 0 0;
+}
+
+.toggle-content {
+  height: 200px;
+  background: red;
+}
+
+.toggle-content.ng-hide-add, .toggle-content.ng-hide-remove {
+  transition: height linear 0.5s;
+}
+
+.toggle-content.ng-hide {
+  height: 0;
+}
+
+.md-button.logo {
+  height: 7rem;
+  width: 7rem;
+}
+
+.logo-image {
+  width: 88px;
+}

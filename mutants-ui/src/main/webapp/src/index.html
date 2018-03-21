@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mercado Libre Mutants</title>
+    <!-- inject:css -->
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+    <link href="bower_components/angular-material-data-table/dist/md-data-table.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/app.css">
+    <!-- endinject -->
+</head>
+
+<body ng-app="hackathonTeamOne" ng-cloak ng-controller="AppCtrl">
+    <md-toolbar md-scroll-shrink="" style="background-color: rgb(255,226,71);">
+        <div class="md-toolbar-tools">
+            <h1 style="font-size: x-large">
+                <md-button class="md-icon-button logo">
+                    <img class="logo-image" src="/images/mercado-libre.png">
+                </md-button>
+                Mutants Verifier
+            </h1>
+        </div>
+    </md-toolbar>
+    <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
+        <md-nav-item md-nav-sref="stats" name="stats">Stats</md-nav-item>
+        <md-nav-item md-nav-sref="mutant" name="mutant">Mutant</md-nav-item>
+    </md-nav-bar>
+
+    <div ui-view></div>
+    <!-- inject:js -->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="bower_components/angular-material/angular-material.min.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.min.js"></script>
+    <script src="bower_components/angular-ui-router/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular-material-data-table/dist/md-data-table.min.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="utils/pie-chart.min.js"></script>
+
+    <script src="js/config/app.js"></script>
+    <script src="js/controllers/mutant-controller.js"></script>
+    <script src="js/controllers/stats-controller.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+</body>
+
+</html>
