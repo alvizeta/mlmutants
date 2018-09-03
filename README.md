@@ -4,9 +4,9 @@ This application was developed in order to achieve some goals described in the e
 
 I keep it here because is a good example of an entire application with a simple Angular UI that consumes a simple API built with Java and Springboot using a h2 database.
 
-The details about the goals of this exam are described in /MercadoLibreExam.txt
+The details about the goals of this exam are described in /MercadoLibre Exam.txt
 
-Inscructions to run the app.
+# Inscructions to run the app
 
   Java project
   in order to run the java project go to the /target and run the command:
