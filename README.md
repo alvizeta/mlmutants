@@ -1,24 +1,32 @@
-# mlmutants
+# Mutants detector
 
-Java project
-in order to run the java project go to the /target and run the command:
+This application was developed in order to achieve some goals described in the exam to enter to MercadoLibre which is the largest eshop in Argentina.
 
-java -jar target/mutants-0.0.1-SNAPSHOT.jar 
+I keep it here because is a good example of an entire application with a simple Angular UI that consumes a simple API built with Java and Springboot using a h2 database.
 
-this will start an instance of the application (and the integrated H2 database) in your direction localhost:300
+The details about the goals of this exam are described in /MercadoLibreExam.txt
 
-therefore the services of the api will be running in these addreses:
+Inscructions to run the app.
 
-localhost:3000/stats
+  Java project
+  in order to run the java project go to the /target and run the command:
 
-localhost:3000/mutant
+  java -jar target/mutants-0.0.1-SNAPSHOT.jar 
 
-Javascript/Angular project
-make sure you have installed NPM Node.js Grunt Bower in your machine
-then go to mutants-ui/src/main/webapp and in there run the command:
+  this will start an instance of the application (and the integrated H2 database) in your direction localhost:300
 
-grunt serve
+  therefore the services of the api will be running in these addreses:
 
-that will initialize your angular app in the url localhost:9000/
+  localhost:3000/stats
 
-go there and start verifying mutants!
+  localhost:3000/mutant
+
+  Javascript/Angular project
+  make sure you have installed NPM Node.js Grunt Bower in your machine
+  then go to mutants-ui/src/main/webapp and in there run the command:
+
+  grunt serve
+
+  that will initialize your angular app in the url localhost:9000/
+
+  go there and start verifying mutants!
