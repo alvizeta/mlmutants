@@ -8,7 +8,7 @@ I keep it here because is a good example of an entire application with a simple 
 
 The details about the goals of this exam are described in /MercadoLibre Exam.txt and the time provided was 72hs so it was a fun challenge to deal with :)
 
-# Inscructions to run the app
+# Instructions to run the app
 
   Java project
   in order to run the java project go to the /target and run the command:
